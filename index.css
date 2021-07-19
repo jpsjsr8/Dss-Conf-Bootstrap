@@ -1,0 +1,82 @@
+#header img {
+    width: 61px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.buy-tickets {
+    color: #97c93e !important;
+}
+
+#main .carousel-inner {
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+.carousel {
+    position: relative;
+}
+
+.carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: seashell;
+}
+.carousel .overlay .container, .carousel .overlay .row {
+    height: 100%;
+    align-items: center;
+}
+
+.btn-buy {
+    background-color: #97c93e !important;
+    color: seashell;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (min-width : 990px ){
+   
+}
+
+#place-time img {
+    width: 100%;
+    background-color: #343a40 !important;
+}
+
+#place-time {
+    background-color: #343a40 !important;
+    color: white;
+}
+
+#place-time div p {
+    text-align: justify;
+}
+
+footer {
+background: linear-gradient(90deg,#1c3643,#273b47 25%, #1e5372);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+@media (min-width: 992px) {
+    .col-lg {
+        flex: 1 0 0%;
+    }
+    .card-img-top {
+        height: 300px;
+        object-fit: cover;
+    }
+} 
+
+
